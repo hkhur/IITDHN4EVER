@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Text Formatting</h1>
+
+    <p>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span> <b>Asperiores dignissimos, at molestiae commodi veniam consequatur esse iusto beatae quisquam </b>distinctio obcaecati officiis recusandae alias amet tempore assumenda tenetur aspernatur dolore! <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto id quibusdam quos maiores modi magnam voluptate nulla nihil, eum, quae, </i>consectetur et excepturi nostrum alias dolores nam adipisci magni. Lorem ipsum dolor sit, amet consectetur adipisicing elit. <u>Illum, dicta at similique animi accusantium optio nobis! Magni porro numquam repudiandae ducimus optio eum voluptas fugiat, consequatur molestiae esse eveniet debitis?</u>
+    </p>
+    <p>
+        <span>Lorem ipsum dolor sit, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amet consectetur adipisicing elit.</span> <strong>Asperiores dignissimos, at molestiae commodi veniam consequatur esse iusto beatae quisquam </strong>distinctio obcaecati officiis recusandae alias amet tempore assumenda tenetur aspernatur dolore! <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto id quibusdam quos maiores modi magnam voluptate nulla nihil, eum, quae, </em>consectetur et excepturi nostrum alias dolores nam adipisci magni. Lorem ipsum dolor sit, amet consectetur adipisicing elit. <ins>Illum, dicta at similique animi accusantium optio nobis! Magni porro numquam repudiandae ducimus optio eum voluptas fugiat, consequatur molestiae esse eveniet debitis?</ins>
+    </p>
+
+    <pre>
+    <code>
+#include &lt;iostream&gt;
+using namespace std;
+ 
+#include &lt;iomanip&gt;
+using std::setw;
+ 
+int main () {
+
+   int n[ 10 ]; // n is an array of 10 integers
+ 
+   // initialize elements of array n to 0          
+   for ( int i = 0; i &lt; 10; i++ ) {
+      n[ i ] = i + 100; // set element at location i to i + 100
+   }
+   cout &lt;&lt; "Element" &lt;&lt; setw( 13 ) &lt;&lt; "Value" &lt;&lt; endl;
+ 
+   // output each array element's value                      
+   for ( int j = 0; j < 10; j++ ) {
+      cout << setw( 7 )<< j << setw( 13 ) << n[ j ] << endl;
+   }
+ 
+   return 0;
+}
+    </code>
+</pre>
+
+<h2>&copy; &alpha; &beta; &pi; &int; &ohm;</h2>
+
+</body>
+</html>
