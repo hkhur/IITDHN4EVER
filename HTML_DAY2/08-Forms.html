@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Form</h1>
+
+    <!-- Get     - To get the data
+         Post    - To send the data -->
+    <form action="login.html" method="get">
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" name="username">
+        <label for="pwd">Enter Password</label>
+        <input type="password" id="pwd" name="password">
+        <br><br>
+        Select City : <select>
+            <option value="pune">Pune</option>
+            <option value="mum">Mumbai</option>
+            <option value="agra">Agra</option>
+            <option value="goa">Goa</option>
+            <option value="noida">Noida</option>
+        </select>
+        <br><br>
+        Select Gender : 
+        <input type="radio" name="gender" value="m"> Male
+        <input type="radio" name="gender" value="f"> Female
+        <br><br>
+        Select Course : 
+        <input type="checkbox"> Btech
+        <input type="checkbox"> Mtech
+        <input type="checkbox"> BCA
+        <input type="checkbox"> MCA
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    
+</body>
+</html>
